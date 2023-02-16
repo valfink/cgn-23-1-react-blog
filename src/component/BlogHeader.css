@@ -1,0 +1,12 @@
+.blog-logo {
+    height: 30px;
+}
+
+.blog-header h1 {
+    display: inline-block;
+    margin-bottom: 0;
+}
+.blog-hr {
+    border: none;
+    border-bottom: 1px solid #FF4929;
+}
