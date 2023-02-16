@@ -23,7 +23,7 @@
     width: 20vw;
     align-self: center;
     justify-self: center;
-    animation: rotateImg infinite 2s linear;
+    animation: rotateImg infinite 4s linear;
     border-radius: 50%;
 }
 .blog-entry h2, .blog-entry h3 {
@@ -38,8 +38,11 @@
         rotate: 0deg;
         filter: hue-rotate(0deg);
     }
-    100% {
+    50% {
         rotate: 360deg;
+    }
+    100% {
+        rotate: 1080deg;
         filter: hue-rotate(720deg);
     }
 }
