@@ -24,7 +24,7 @@ function App() {
 
     return (
         <div className={"App"}>
-            <BlogHeader/>
+            <BlogHeader />
             <BlogEntryList entries={entryList}/>
             <NewEntryForm
                 passNewEntry={addNewEntryToList}
